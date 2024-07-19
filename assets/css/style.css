@@ -24,8 +24,8 @@ h3 {
 h2 {
   font-family: 'Arial';
   font-size: 1.4em; /* Tamanho da fonte maior */
-  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
-  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
+  -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
+  animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
   margin: 50px; /* Margem ao redor */
 }
 
@@ -83,8 +83,8 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
   object-fit: cover; /* Preenche o espaço sem distorção */
   margin-right: 20px; /* Espaço entre a foto e o conteúdo */
-  -webkit-animation: swing-in-top-fwd 10s cubic-bezier(0.175, 0.885, 0.320, 1.275) both; /* Animação */
-  animation: swing-in-top-fwd 10s cubic-bezier(0.175, 0.885, 0.320, 1.275) both; /* Animação */
+  -webkit-animation: swing-in-top-fwd 15s cubic-bezier(0.175, 0.885, 0.320, 1.275) both; /* Animação */
+  animation: swing-in-top-fwd 14s cubic-bezier(0.175, 0.885, 0.320, 1.275) both; /* Animação */
 }
 
 .profile-photo2 {
@@ -144,10 +144,10 @@ footer {
   height: 2px; /* Altura da linha */
   background: #e53939; /* Cor da linha */
   margin: 40px 0; /* Espaçamento vertical */
-  width: 80%; /* Largura da linha */
+  width: 100%; /* Largura da linha */
   margin-left: auto; /* Centraliza a linha */
-  -webkit-animation: scale-in-hor-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
-  animation: scale-in-hor-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
+  -webkit-animation: scale-in-hor-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
+  animation: scale-in-hor-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
 }
 
 .section-divider-w {
@@ -155,9 +155,9 @@ footer {
   height: 2px; /* Altura da linha */
   background: #f5f5f5; /* Cor da linha */
   margin: 0; /* Sem espaçamento vertical */
-  width: 80%; /* Largura da linha */
-  -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
-  animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
+  width: 100%; /* Largura da linha */
+  -webkit-animation: scale-in-hor-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
+  animation: scale-in-hor-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; /* Animação */
 }
 
 

@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 1040px) {
+
+     
+      h1 {
+        font-family: 'Poppins';
+        font-size: 1rem; /* Tamanho da fonte maior */
+        -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; /* Animação */
+        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; /* Animação */
+        text-align: left;
+      }
+      
+      h3 {
+        font-family: 'Poppins';
+        font-size: 1rem; /* Tamanho da fonte maior */
+        color: #e53939; /* Cor do texto */
+      }
+      
+      h2 {
+        font-family: 'Arial';
+        font-size: 1rem;
+        -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
+        animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; /* Animação */
+        margin: 50px; /* Margem ao redor */
+        width: 100%;
+      }
+      
+
+      
+      #section1 {
+        background-color: #000000; /* Cor de fundo preta */
+        border-top: none; /* Remove a borda superior */
+        padding: 0px; /* Define o padding */
+        width: 100%; /* Largura completa */
+        gap: 40px; /* Espaço entre a foto e o texto */
+        flex-direction: column;
+        align-items: center;
+
+      }
+      
+      #section2 {
+        flex-direction: column;
+        align-items: center;
+        width: auto; /* Define a largura da foto */
+        height: auto; /* Define a altura da foto */
+        text-align: justify;
+
+      }
+      
+      #section3 {
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+      .profile-photo {
+        width: 200px; /* Define a largura da foto */
+        height: 200px; /* Define a altura da foto */
+        margin-right: 0px;
+        margin-top: 20px;
+      }
+      
+      .profile-photo2 {
+        width: 100px; /* Define a largura da foto */
+        height: 100px; /* Define a altura da foto */
+
+      }
+      
+      .profile-photo3 {
+        width: 100px; /* Define a largura da foto */
+        height: 100px; /* Define a altura da foto */
+
+      }
+      
+      .section {
+          padding: 10px;
+          height: 25%;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .section-content h2 {
+        font-size: 0.7rem;
+    }
+
+
+}
