@@ -1,0 +1,9 @@
+body {
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  margin: 0; /* Sem margem */
+  padding: 0; /* Sem padding */
+  background-color: #000000; /* Cor de fundo preta */
+  line-height: 1.6; /* Altura da linha */
+  color: #f5f5f5; /* Cor do texto */
+  overflow-x: hidden; /* Esconde rolagem horizontal */
+}
